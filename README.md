@@ -9,20 +9,7 @@
 * **Compliance dashboard**
 
 ## Step 1 - Folder STructure
-grc-risk-framework/
-├── data/
-│   ├── assets.csv
-│   ├── risk_register.csv
-├── controls/
-│   └── nist80053_sample.json
-├── scripts/
-│   ├── risk_assessment.py
-│   └── control_mapper.py
-├── reports/
-│   └── risk_report.md
-├── dashboard/
-│   └── app.py  (for later)
-└── README.md
+![image](https://github.com/user-attachments/assets/0ecd7888-8205-4066-a387-49645feb9629)
 
 ## Step 2 - Create (Assets.CSV)
     - Path: data/assets.csv
@@ -34,29 +21,15 @@ grc-risk-framework/
 
 ## Step 4 - Create a Control Set (nist800-53.json)
    - Path: controls/nist800-53.json
-json
+![image](https://github.com/user-attachments/assets/676e952f-4577-4c42-b54d-2d935fcba292)
 
-[
-  {
-    "control_id": "AC-2",
-    "control_name": "Account Management",
-    "description": "Manage information system accounts, including establishing, activating, modifying, disabling, and removing accounts."
-  },
-  {
-    "control_id": "AC-6",
-    "control_name": "Least Privilege",
-    "description": "Employ the principle of least privilege, allowing only authorized access for users."
-  },
-  {
-    "control_id": "SC-7",
-    "control_name": "Boundary Protection",
-    "description": "Monitor and control communications at the external boundary and key internal boundaries."
-  }
-]
+## Step 5 - Create Risk Assessment Script (risk_assessment.py)
+    - Path: scripts/risk_assessment.py
+![image](https://github.com/user-attachments/assets/4c41a352-8b3c-46de-9d46-041950e80d28)
 
 
 
     
-    
+            
 
 
