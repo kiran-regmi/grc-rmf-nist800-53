@@ -27,6 +27,17 @@
     - Path: scripts/risk_assessment.py
 ![image](https://github.com/user-attachments/assets/4c41a352-8b3c-46de-9d46-041950e80d28)
 
+## Phase 2 - Control Mapping:
+* Map Risk to Relevant NIST 800-53 controls (control_matter.py)
+* Track control implementation status
+* Prepare a risk report summary (risk_report.md)
+* Build a dashborad in Streamlit or Flask (optional)
+
+## Step 1 - Create Control Mapping Logic (control_mapper.py)
+    - Path: scripts/control_mapper.py
+![image](https://github.com/user-attachments/assets/2a6a8a61-8bfd-4ea4-88ad-92da6efe0227)
+    
+
 
 
     
