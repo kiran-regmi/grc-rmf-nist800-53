@@ -37,8 +37,17 @@
     - Path: scripts/control_mapper.py
 ![image](https://github.com/user-attachments/assets/2a6a8a61-8bfd-4ea4-88ad-92da6efe0227)
     
+## Step 2 - Result (risk_register_mapped.csv)
+// after control_mapper.py
+![image](https://github.com/user-attachments/assets/8c0eb3c6-17cb-4b41-b035-1db92cb59f9b)
 
+## Step 3 - Generate Risk Report
+    -  Path: reports/risk_report.md
+![image](https://github.com/user-attachments/assets/2f2b5b50-5b9f-4121-8f37-41d9cda230ca)
+![image](https://github.com/user-attachments/assets/638bb539-54e0-4ae7-830f-399096ff74a0)
+![image](https://github.com/user-attachments/assets/446f2dcb-b2b3-47e7-8f54-d5cb69fb2123)
 
+    
 
     
             
