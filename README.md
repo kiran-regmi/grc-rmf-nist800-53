@@ -47,6 +47,51 @@
 ![image](https://github.com/user-attachments/assets/638bb539-54e0-4ae7-830f-399096ff74a0)
 ![image](https://github.com/user-attachments/assets/446f2dcb-b2b3-47e7-8f54-d5cb69fb2123)
 
+# 📋 Risk Management Summary Report
+
+**Generated:** Automatically
+**Framework:** NIST 800-53 Controls
+**Author:** Kiran Regmi
+
+---
+
+## 🔍 Risk Overview
+
+| Risk ID | Asset             | Risk Level | Mapped Controls |
+| ------- | ----------------- | ---------- | --------------- |
+| R001    | Customer Database | High       | AC-2, AC-6      |
+| R002    | Employee HR Files | Medium     | AC-6            |
+| R003    | Email Server      | High       | SC-7            |
+| R004    | Public Website    | Low        | SC-7            |
+
+---
+
+## 📌 Control Descriptions (Sample)
+
+* **AC-2 (Account Management)**: Manage information system accounts.
+* **AC-6 (Least Privilege)**: Grant only necessary access.
+* **SC-7 (Boundary Protection)**: Monitor/control system boundaries.
+
+---
+## 🛑 Risk Descriptions
+
+- **R001 – Unauthorized Access to Customer Database:** Weak access control may allow unauthorized users to access sensitive customer information, leading to data breaches.
+- **R002 – Data Leakage from HR Files:** Improper permissions can expose sensitive employee records to unauthorized individuals.
+- **R003 – DDoS Attack on Email Server:** Lack of network-level filtering makes the email server vulnerable to denial-of-service attacks.
+- **R004 – Website Defacement Risk:** The public website runs on an unpatched CMS, increasing the risk of unauthorized modification or defacement.
+
+## ✅ Control Implementation Status
+
+| Control ID | Control Name         | Implemented | Notes                                |
+|------------|----------------------|-------------|--------------------------------------|
+| AC-2       | Account Management   | Yes         | AD user lifecycle policy enforced    |
+| AC-6       | Least Privilege      | No          | Role-based access still in progress  |
+| SC-7       | Boundary Protection  | Yes         | Firewall and IDS active              |
+
+## 📸 Dashboard Snapshot
+
+![Risk Dashboard Screenshot](images/dashboard.png)
+
     
 
     
